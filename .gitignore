@@ -1,0 +1,12 @@
+.env
+
+/memory/*
+!/memory/.gitkeep
+
+/models/*
+/models/all-MiniLM-L6-v2/*
+!/models/all-MiniLM-L6-v2/
+!/models/all-MiniLM-L6-v2/.gitkeep
+
+/outputs/*
+!/outputs/.gitkeep

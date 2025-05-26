@@ -1,0 +1,4 @@
+sentence-transformers
+chromadb==0.4.24
+ollama==0.1.7
+langfuse
