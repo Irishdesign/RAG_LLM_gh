@@ -7,6 +7,8 @@ If there are any shortcomings or imperfections, your understanding and feedback 
 ## 1. Project Purpose
 This project is a privacy-focused, fully local RAG (Retrieval-Augmented Generation) system. You can interact with your own documents (Q&A, summarization, creative writing, etc.) using a local LLM and vector database (ChromaDB) in a completely offline environment. All data and models are stored on your machine—no cloud upload required, ensuring data security.
 
+You need another repo, [vector_db_gh](https://github.com/Irishdesign/vector_db_gh), for preheat your vetcor db. 
+
 ## 2. Technical Overview
 - **RAG Architecture**: Combines local ChromaDB vector DB and LLM (Ollama) for retrieval and generation.
 - **ChromaDB**: Local vector DB, supports custom embedding functions with transformers-format models.
@@ -160,4 +162,4 @@ In this repo, you can talk to four types of assistants.
   ```
 
 ---
-Feel free to open an issue or discussion if you have questions!
+This project is intended for local/offline use. For any questions or issues, please feel free to reach out to me.
