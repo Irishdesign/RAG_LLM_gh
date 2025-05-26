@@ -1,5 +1,5 @@
 # Run Your Own Private RAG LLM
-#### Local Document Q&A and Chat with Historical People
+Local Document Q&A and Chat with Historical People
 
 > This project was developed by the author with the assistance of GitHub Copilot and ChatGPT, completed in about 3 days.
 If there are any shortcomings or imperfections, your understanding and feedback are appreciated.
@@ -81,7 +81,6 @@ Check with `docker images` to confirm you have python:3.9-slim.
 ## Assistant Modes
 
 In this repo, you can talk to four types of assistants.
----
 
 ## 0. 🗣️ Chat with llama3.2
 
