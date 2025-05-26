@@ -1,4 +1,5 @@
-# RAG_LLM: Local Document Q&A and Chat with Historical Peopel
+# Run Your Own Private RAG LLM
+#### Local Document Q&A and Chat with Historical People
 
 > This project was developed by the author with the assistance of GitHub Copilot and ChatGPT, completed in about 3 days.
 If there are any shortcomings or imperfections, your understanding and feedback are appreciated.
@@ -71,15 +72,13 @@ Check with `docker images` to confirm you have python:3.9-slim.
     ```sh
     docker run -e LANGFUSE_HOST=http://host.docker.internal:3000 ...
     ```
-    Or in `docker-compose.yml`:
-    ```yaml
-    environment:
-      - LANGFUSE_HOST=http://host.docker.internal:3000
-    ```
+   
 - **Auto-detection recommendation:**
   - By default, the program uses the `LANGFUSE_HOST` environment variable. If not set, it will automatically use `http://host.docker.internal:3000`, which is suitable for macOS/Windows Docker Desktop.
-  - For Linux or special network environments, adjust as needed.
 
+## Assistant Modes
+
+In this repo, you can talk to four types of assistants.
 ---
 
 ## 0. 🗣️ Chat with llama3.2
